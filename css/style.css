@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-rows: 50px 90vh 50px;
+}
+
+@media (min-width: 1280px) {
+    .container {
+        width: 1024px;
+        margin: 0 auto;
+    }
+}
