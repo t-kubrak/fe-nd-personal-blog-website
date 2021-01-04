@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.body-header {
+    height: 50px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px;
+}
+
+.container-footer {
+    background: #7fc99d;
+    color: white;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .container-main {
+        width: 1024px;
+        margin: 0 auto;
+    }
+}

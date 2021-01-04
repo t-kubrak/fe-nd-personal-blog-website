@@ -1,0 +1,19 @@
+@import "main.css";
+
+.container {
+    display: grid;
+    grid-template-rows: 50px minmax(95vh, auto) 50px;
+}
+
+.container-main {
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (min-width: 1024px) {
+    .container-main {
+        width: 800px;
+    }
+}

@@ -1,16 +1,4 @@
-body {
-    margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.body-header {
-    height: 50px;
-    border-bottom: 1px solid grey;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0 5px;
-}
+@import "main.css";
 
 h1 {
     font-weight: lighter;
@@ -25,12 +13,6 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.container-footer {
-    background: #7fc99d;
-    color: white;
-    text-align: center;
 }
 
 .card {
@@ -61,11 +43,6 @@ h1 {
 }
 
 @media (min-width: 1024px) {
-    .container-main {
-        width: 1024px;
-        margin: 0 auto;
-    }
-
     .card {
         width: 450px;
         margin: 15px 15px;
