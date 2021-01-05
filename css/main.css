@@ -1,6 +1,9 @@
 body {
     margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-weight: lighter;
 }
 
 .body-header {
@@ -10,12 +13,29 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 5px;
+    background: #62d2a2;
+}
+
+.container {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .container-footer {
     background: #7fc99d;
     color: white;
     text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 @media (min-width: 1024px) {

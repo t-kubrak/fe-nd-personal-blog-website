@@ -1,9 +1,4 @@
 @import "main.css";
-
-h1 {
-    font-weight: lighter;
-}
-
 .container {
     display: grid;
     grid-template-rows: 50px minmax(95vh, auto) 50px;
@@ -39,7 +34,7 @@ h1 {
 .blog-post-link {
     padding: 10px 5px;
     display: block;
-    color: #7fc99d;
+    color: #416653;
 }
 
 @media (min-width: 1024px) {
