@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.body-header {
+    height: 50px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px;
+    background: #62d2a2;
+}
+
+.body-header-link {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-footer {
+    background: #7fc99d;
+    color: white;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+    .container-main {
+        width: 1024px;
+        margin: 0 auto;
+    }
+}
